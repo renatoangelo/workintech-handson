@@ -83,11 +83,11 @@ include("../include/default.php");
                       while($row_oficinas = $result_oficinas->fetch(PDO::FETCH_ASSOC)) {
                     ?>
                     <tr>
-                      <td><?php echo $row_oficinas['id']; ?></td>
+                      <td><?php echo $row_oficinas['id_oficina']; ?></td>
                       <td><?php echo $row_oficinas['nome']; ?></td>
                       <td><?php echo $row_oficinas['limite']; ?></td>
                       <td><span class="tag tag-success"><?php echo $row_oficinas['date']; ?></span></td>
-                      <td><a class="btn bg-gradient-info" href=<?php echo URLADMIN . "imoveis/edit.php?id=" . $row_imoveis['id']; ?>" role="button"><i class="fa-solid fa-pen-to-square"></i> See Receipts</a></td>
+                      <td><a class="btn bg-gradient-info" href=<?php echo URLADMIN . "imoveis/edit.php?id=" . $row_oficinas['id_oficina']; ?>" role="button"><i class="fa-solid fa-pen-to-square"></i> See Receipts</a></td>
                     </tr>
                     <?php
                       }

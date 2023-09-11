@@ -33,7 +33,7 @@
           </li>
 
                <li class="nav-item">
-            <a href="../transaction/index.php" class="nav-link">
+            <a href="../oficinas/index.php" class="nav-link">
             <!--<i class="nav-icon fas fa-file"></i>-->
             <i class="fa-solid fa-square-plus"></i>
               <p>&nbsp;&nbsp; Cadatrar Oficinas</p>
