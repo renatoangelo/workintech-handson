@@ -22,7 +22,7 @@ include("../include/default.php");
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
               <li class="breadcrumb-item"><a href="../dashboard/index.php">Home</a></li>
-              <li class="breadcrumb-item active">Veiculos</li>
+              <li class="breadcrumb-item active">Oficinas</li>
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->
@@ -37,7 +37,7 @@ include("../include/default.php");
         <div class="card card-primary">
           <!-- .card-header -->
           <div class="card-header">
-            <h3 class="card-title"><i class="fa-solid fa-house"></i> Cadastre um Veiculo</h3>
+            <h3 class="card-title"><i class="fa-solid fa-house"></i> Cadastre uma Oficina</h3>
           </div>
 
 
