@@ -1,0 +1,12 @@
+[06-Jun-2023 00:58:16 UTC] PHP Warning:  include_once(../include/config.php): failed to open stream: No such file or directory in /home/renatoan/public_html/frotasys/admin/include/connection.php on line 2
+[06-Jun-2023 00:58:16 UTC] PHP Warning:  include_once(): Failed opening '../include/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/renatoan/public_html/frotasys/admin/include/connection.php on line 2
+[06-Jun-2023 00:58:16 UTC] PHP Warning:  Use of undefined constant USERNAME - assumed 'USERNAME' (this will throw an Error in a future version of PHP) in /home/renatoan/public_html/frotasys/admin/include/connection.php on line 4
+[06-Jun-2023 00:58:16 UTC] PHP Warning:  Use of undefined constant PASSWORD - assumed 'PASSWORD' (this will throw an Error in a future version of PHP) in /home/renatoan/public_html/frotasys/admin/include/connection.php on line 5
+[06-Jun-2023 00:58:16 UTC] PHP Warning:  Use of undefined constant HOST - assumed 'HOST' (this will throw an Error in a future version of PHP) in /home/renatoan/public_html/frotasys/admin/include/connection.php on line 6
+[06-Jun-2023 00:58:16 UTC] PHP Warning:  Use of undefined constant DBNAME - assumed 'DBNAME' (this will throw an Error in a future version of PHP) in /home/renatoan/public_html/frotasys/admin/include/connection.php on line 7
+[06-Jun-2023 00:58:16 UTC] PHP Warning:  Use of undefined constant PORT - assumed 'PORT' (this will throw an Error in a future version of PHP) in /home/renatoan/public_html/frotasys/admin/include/connection.php on line 8
+[03-Sep-2023 17:28:33 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'devinsid_suncredit.users' doesn't exist in /home/devinsid/public_html/suncredit/admin/login/index.php:36
+Stack trace:
+#0 /home/devinsid/public_html/suncredit/admin/login/index.php(36): PDOStatement->execute()
+#1 {main}
+  thrown in /home/devinsid/public_html/suncredit/admin/login/index.php on line 36
