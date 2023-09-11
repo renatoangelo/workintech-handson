@@ -130,7 +130,7 @@ if(!empty($dados['recovery'])) {
 
     if ($result_update_user->execute()) {
 
-      $link = "http://devinsider.com.br/suncredit/admin/login/update_password.php?key=$recovery_key";
+      $link = URLADMIN . "/login/update_password.php?key=$recovery_key";
 
       try {
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;
@@ -147,7 +147,7 @@ if(!empty($dados['recovery'])) {
 
         $mail->isHTML(true);
         $mail->CharSet = 'UTF-8';
-        $mail->Subject = 'Password Recovey SunCredit';
+        $mail->Subject = 'Password Recovey WorkinTech - HandsOn';
         $mail->Body    = 'Dear User ' . $row_user['name'] . '.<br><Br>
         You request about a password change<br><br>
         To do this, click on the link below or copy and past in your browser: <br><Br><a href="' . $link . '">' . $link . '</a>';

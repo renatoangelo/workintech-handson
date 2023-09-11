@@ -1,7 +1,7 @@
 
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2021-2023 <a href="https://devinsider.com.br">SunCredit - DevInsider</a>.</strong>
+    <strong>Copyright &copy; 2021-2023 <a href="https://devinsider.com.br">WorkinTech - HandsOn - DevInsider</a>.</strong>
     All right reserved to <b>Sun</b>Credit.
     <div class="float-right d-none d-sm-inline-block">
       <b>Version</b> Alfa-1.1.0
