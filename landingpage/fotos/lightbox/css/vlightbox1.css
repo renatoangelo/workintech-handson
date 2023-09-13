@@ -1,0 +1,64 @@
+#vlightbox1 {
+	width:100%;
+	zoom:1;	
+}
+#vlightbox1 .vlightbox1 {
+	display:-moz-inline-stack;
+	display:inline-block;
+	zoom:1;
+	*display:inline;
+	position:relative;
+	vertical-align:top;
+	width:100%;
+	margin:5px;
+	padding:6px;	
+	border:solid 1px #b8b8b8;
+	border-radius:3px;	
+	background-color:#f4f5f5;
+	font-family:Trebuchet,Tahoma,Arial,sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:center;
+	outline:none;
+}
+#vlightbox1 .vlightbox1 a{
+	margin:0;
+	padding:0;
+	border:none;
+}
+#vlightbox1 .vlightbox1:hover, #vlightbox1 .vlightbox1 a:hover{
+
+	opacity:0.8;
+
+}
+
+#vlightbox1 .vlightbox1 img{
+	width:100%;
+	display:block;
+	border:none;
+	margin:0;
+}
+#vlightbox1 .vlightbox1 div {display:none}
+
+/*Responsivo*/
+/*480PX BREAKPOINT*/
+@media (min-width:30em){
+
+#vlightbox1 #lightbox-responsiva { width:47.5%; float:left; }
+
+}
+
+/*768PX BREAKPOINT*/
+@media (min-width:48em){
+
+#vlightbox1 #lightbox-responsiva { width:31.8%; }
+
+} 
+
+/*1280PX BREAKPOINT*/
+/* @media (min-width:80em){
+
+#vlightbox1 #lightbox-responsiva { width:23.6%; }
+ 
+} */

@@ -1,3 +1,8 @@
+<?php
+include("admin/include/default.php");
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+?>
 <!-- form start -->
 <form action="" method="post">
   <div class="card-body">
