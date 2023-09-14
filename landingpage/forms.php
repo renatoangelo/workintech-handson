@@ -82,7 +82,7 @@
 
         <div class="row">
           <?php
-            include("forms/form.php");
+            include("../forms/form.php");
           ?>
         </div>
       
