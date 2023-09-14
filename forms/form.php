@@ -10,7 +10,7 @@
     }
     $query_oficina = 'SELECT o.id_oficina, o.nome 
     FROM oficinas o 
-    WHERE o.limite > (
+    WHERE o.limite > ( 
                         SELECT count(*) 
                         FROM cadastro c 
                         WHERE c.oficina = o.id_oficina
