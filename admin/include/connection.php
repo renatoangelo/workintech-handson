@@ -1,5 +1,5 @@
 <?php
-include_once '../include/config.php';
+include_once '../admin/include/config.php';
 
 $username = USERNAME;
 $password = PASSWORD;
