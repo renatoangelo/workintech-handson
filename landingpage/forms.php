@@ -2,6 +2,7 @@
 include("head.php");
 include("../admin/include/config.php");
 include("../admin/include/connection.php");
+
 ?>
 
 <body>
