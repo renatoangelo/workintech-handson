@@ -1,3 +1,3 @@
 <?php
-header("Location: admin/login/index.php");
+header("Location: landingpage/");
 ?>
