@@ -23,21 +23,21 @@
 
 
 
-    <section class="hero-section" id="section_1">
+    <section class="hero-section h-25" id="section_1">
       <div class="section-overlay"></div>
 
       <div class="container d-flex justify-content-center align-items-center">
         <div class="row">
 
           <div class="col-12 mt-auto mb-5 text-center">
-            <small>Feira de Empregabilidade</small>
+            <small>Oficina Mão na Massa!</small>
 
             <h1 class="text-white mb-5"><img src="images/logo.png" /></h1>
 
-            <a class="btn custom-btn smoothscroll" href="inscricao.php" target="_blank">Inscreva-se</a>
+            <!-- <a class="btn custom-btn smoothscroll" href="inscricao.php" target="_blank">Inscreva-se</a> -->
           </div>
 
-          <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
+          <!-- <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
             <div class="date-wrap">
               <h5 class="text-white">
                 <i class="custom-icon bi-clock me-2"></i>
@@ -60,7 +60,7 @@
               </h5>
             </div>
 
-          </div>
+          </div> -->
         </div>
       </div>
 
