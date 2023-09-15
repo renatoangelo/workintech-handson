@@ -5,7 +5,7 @@ class Cadastro {
     static function create($args) {
         include '../admin/include/connection.php';
 
-        if(!isset($args['nome'])) {
+        if($args['nome'] == '') {
             return '<div class="alert alert-danger" role="alert"> Nome não informado! </div>';
         }
         $valida = Cadastro::validaCapacidade($args);
@@ -14,23 +14,20 @@ class Cadastro {
         $timestamp = strtotime($data_agora);
         $dataFormatada = date('Y-m-d', $timestamp);
         
-        
-        $dataExiste = Cadastro::validaData($args, $dataFormatada);
-        if($dataExiste){
-            return '<div class="alert alert-warning" role="alert"> Usuário já cadastrado em outra oficina da mesma data</div>';
-        } 
-
-
-        $query = 'SELECT COUNT(1) FROM cadastro WHERE ra = :ra and oficina = :oficina';
+        $query = 'SELECT COUNT(1) FROM cadastro WHERE ra = :ra';
         $result = $conn->prepare($query);
         $result->bindParam(':ra', $args['ra'], PDO::PARAM_STR);
         $result->bindParam(':oficina', $args['oficina'], PDO::PARAM_STR);
         $result->execute();
         $total = $result->fetchColumn();
         if ($total > 0) {
-            return '<div class="alert alert-warning" role="alert"> Usuário já cadastrado nesta oficina!</div>';
+            return '<div class="alert alert-warning" role="alert"> Usuário já cadastrado em uma oficina</div>';
         }
-
+        
+        // $dataExiste = Cadastro::validaData($args, $dataFormatada);
+        // if($dataExiste){
+        //     return '<div class="alert alert-warning" role="alert"> Usuário já cadastrado em outra oficina da mesma data</div>';
+        // } 
 
         $query = 'INSERT INTO cadastro (nome, ra,turma,oficina,notebook,termos, data_agora) VALUES (:nome, :ra, :turma, :oficina, :notebook, :termos, :data_agora)';
         $result = $conn->prepare($query);
@@ -64,13 +61,17 @@ class Cadastro {
 
     static function validaCapacidade($args) {
         include '../admin/include/connection.php';
-        $query = 'SELECT COUNT(*) FROM cadastro c, oficinas o WHERE c.oficina = :oficina and c.oficina = o.id_oficina';
+        $query = 'SELECT COUNT(*) FROM cadastro c
+        INNER JOIN oficinas o ON c.oficina = o.id_oficina
+        WHERE c.oficina = :oficina
+        GROUP BY o.limite
+        HAVING COUNT(*) >= o.limite';
         $result = $conn->prepare($query);
         $result->bindParam(':oficina', $args['oficina'], PDO::PARAM_STR);
         $result->execute();
         $total = $result->fetchColumn();
         echo $total;
-        if ($total <= 40) {
+        if ($total) {
             return true;
         } else {
             return false;
