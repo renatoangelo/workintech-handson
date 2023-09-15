@@ -1,9 +1,4 @@
-<?php
-include("head.php");
-include("../admin/include/config.php");
-include("../admin/include/connection.php");
-
-?>
+<?php include("head.php"); ?>
 
 <body>
 

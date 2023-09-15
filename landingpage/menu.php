@@ -21,12 +21,12 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link click-scroll" href="#section_3">Participantes</a>
+          <a class="nav-link click-scroll" href="#section_3">Palestrantes</a>
         </li>
 
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link click-scroll" href="#section_4">Empresas</a>
-        </li>
+        </li> -->
 
         <li class="nav-item">
           <a class="nav-link click-scroll" href="#section_5">Cronograma</a>

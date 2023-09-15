@@ -11,7 +11,7 @@
           <div class="col-lg-12 col-12 d-flex flex-wrap">
             <p class="d-flex me-4 mb-0">
               <i class="bi-person custom-icon me-2"></i>
-              <strong class="text-dark">Work in Tech - Feira de Empregabilidade</strong>
+              <strong class="text-dark">Work in Tech Hands.On - Capacitação Profissional</strong>
             </p>
           </div>
 
@@ -21,8 +21,6 @@
 
     <?php include("menu.php"); ?>
 
-
-
     <section class="hero-section" id="section_1">
       <div class="section-overlay"></div>
 
@@ -30,7 +28,7 @@
         <div class="row">
 
           <div class="col-12 mt-auto mb-5 text-center">
-            <small>Feira de Empregabilidade</small>
+            <small>Capacitação Profissional Mão na Massa</small>
 
             <h1 class="text-white mb-5"><img src="images/logo.png" /></h1>
 
@@ -41,7 +39,7 @@
             <div class="date-wrap">
               <h5 class="text-white">
                 <i class="custom-icon bi-clock me-2"></i>
-                30 de Maio 2023
+                19 e 20 de Setembro 2023
               </h5>
             </div>
 
@@ -77,22 +75,22 @@
     <section class="about-section section-padding" id="section_2">
       <div class="container">
         <div class="row">
-          <h2 class="text-white mb-4">Work in Tech</h2>
+          <h2 class="text-white mb-4">Work in Tech Hands.On</h2>
         </div>
 
         <div class="row">
           <div class="col-lg-6 col-12 mb-4 mb-lg-0 d-flex align-items-center">
             <div class="services-info">
-              <p class="text-white">Promovida pela UniCesumar a Feira de Empregabilidae é uma conexão entre os alunos dos cursos de tecnologia e empresas renomadas do setor. Um dia cheio de oportunidades e aprendizados com enfase no mercado de trabalho. Não perca essa chance de iniciar sua correira com sucesso!
+              <p class="text-white">A WorkInTech - Hands.On é uma extensão da WorkInTech Feira da Empregabilidade que acontece na UniCesumar. O objevtivo principal é capacitar os alunos do curso de tecnologia para o mercado de trabalho. Através de oficianas direcionadas cada aluno tem a oportunidade de aprender na prática desenvolvendo assim habilidades do setor!
               </p>
 
               <h6 class="text-white mt-4">Vantagens do evento</h6>
 
-              <p class="text-white">Acesso direto a diversas empresas do setor de TI, além de palestras inspiradoras que auxiliam os alunos a explorarem diferentes áreas e se prepararem para o mercado de trabalho.</p>
+              <p class="text-white">Uma oportunidade rica de se conectar com áreas de interesse e navegar entre os setores de tecnologia mais desejados pelos profissionais de TI em diversas áreas.</p>
 
               <h6 class="text-white mt-4">Venha Fazer Parte</h6>
 
-              <p class="text-white">Participe da Feira de Empregabilidade na UniCesumar e conecte-se com oportunidades de emprego e conhecimento para construir um futuro promissor. Sua big-opportunity para fazer networking com empresas do nosso setor.</p>
+              <p class="text-white">Participe desta incrível jornada e construa habilidades para se conectar há um futuro promissor. Sua big-opportunity para fazer networking e aprimorar suas skills.</p>
             </div>
           </div>
 
@@ -115,7 +113,7 @@
           </div>
         </div>
 
-        <div style="margin-top: 50px;" class="row justify-content-center">
+        <!-- <div style="margin-top: 50px;" class="row justify-content-center">
           <div class="unicesumar">
             <h2 class="text-white" style="text-align: center;">Fotos do Evento - Clique para acessar</h2>
 
@@ -124,7 +122,7 @@
               <a href="fotos/linkedin.php" target="_blank"><img src="images/linkedin.jpg"></a>
             </div>
           </div>
-        </div>
+        </div> -->
 
       </div>
     </section>
@@ -134,7 +132,7 @@
         <div class="row justify-content-center">
 
           <div class="col-12 text-center">
-            <h2 class="mb-4">Participantes</h2>
+            <h2 class="mb-4">Palestrantes</h2>
           </div>
 
           <?php include("participantes.php"); ?>
@@ -143,38 +141,22 @@
       </div>
     </section>
 
-    <section class="about-section section-padding" id="section_4">
+    <!-- <section class="about-section section-padding" id="section_4">
       <div class="container">
         <?php include("empresas.php"); ?>
       </div>
-    </section>
+    </section> -->
 
 
     <section class="schedule-section section-padding" id="section_5">
       <div class="container">
 
         <div class="row">
-          <div class="col-12 text-center">
-            <h2 class="text-white mb-4">Cronograma</h2>
-          </div>
-
 
           <div class="col-12 text-center">
-            <h3 class="text-white mb-4">Salas</h3>
-            <?php include("tabela-salas.php"); ?>
-          </div>
-
-
-          <div class="col-12 text-center">
-            <h3 class="text-white mb-4">Inspira Space</h3>
+            <h3 class="text-white mb-4">Oficinas</h3>
             <?php include("tabela-inspira.php"); ?>
           </div>
-
-          <div class="col-12 text-center">
-            <h3 class="text-white mb-4">Mentorias</h3>
-            <?php include("tabelas-mentorias.php"); ?>
-          </div>
-
 
         </div>
       </div>
