@@ -14,20 +14,20 @@ class Cadastro {
         $timestamp = strtotime($data_agora);
         $dataFormatada = date('Y-m-d', $timestamp);
         
-        $query = 'SELECT COUNT(1) FROM cadastro WHERE ra = :ra and oficina = :oficina';
+        $query = 'SELECT COUNT(1) FROM cadastro WHERE ra = :ra';
         $result = $conn->prepare($query);
         $result->bindParam(':ra', $args['ra'], PDO::PARAM_STR);
         $result->bindParam(':oficina', $args['oficina'], PDO::PARAM_STR);
         $result->execute();
         $total = $result->fetchColumn();
         if ($total > 0) {
-            return '<div class="alert alert-warning" role="alert"> Usuário já cadastrado nesta oficina!</div>';
+            return '<div class="alert alert-warning" role="alert"> Usuário já cadastrado em uma oficina</div>';
         }
         
-        $dataExiste = Cadastro::validaData($args, $dataFormatada);
-        if($dataExiste){
-            return '<div class="alert alert-warning" role="alert"> Usuário já cadastrado em outra oficina da mesma data</div>';
-        } 
+        // $dataExiste = Cadastro::validaData($args, $dataFormatada);
+        // if($dataExiste){
+        //     return '<div class="alert alert-warning" role="alert"> Usuário já cadastrado em outra oficina da mesma data</div>';
+        // } 
 
         $query = 'INSERT INTO cadastro (nome, ra,turma,oficina,notebook,termos, data_agora) VALUES (:nome, :ra, :turma, :oficina, :notebook, :termos, :data_agora)';
         $result = $conn->prepare($query);
