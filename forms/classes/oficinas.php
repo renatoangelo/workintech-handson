@@ -7,11 +7,11 @@ class Oficina {
         include '../admin/include/connection.php';
         $query_oficina = 'SELECT o.id_oficina, o.nome 
         FROM oficinas o 
-        WHERE o.limite > (
-                            SELECT count(*) 
-                            FROM cadastro c 
-                            WHERE c.oficina = o.id_oficina
-                          )';
+        WHERE (o.limite_pc + o.limite_note) > (
+            SELECT COUNT(*) 
+            FROM cadastro c 
+            WHERE c.oficina = o.id_oficina
+        )';
         $oficinas_disponiveis = $conn->prepare($query_oficina);
         $oficinas_disponiveis->execute();
         $oficinas_disponiveis = $oficinas_disponiveis->fetchAll();

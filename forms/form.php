@@ -4,6 +4,7 @@
   $oficinas_disponiveis = Oficina::get();
 
 ?>
+<link rel="stylesheet" type="text/css" href="../landingpage/css/form.css" media="screen" />
 <!-- form start -->
 <!-- teste -->
 <?php
@@ -49,15 +50,15 @@
       ?>
       <div class="row">
         <section class="col-lg-6 connectedSortable">
-          <div class="form-group text-white">
+          <div class=" text-white">
             <label for="exampleInputEmail1">Nome Completo: </label>
-            <input type="text" class="form-control" id="nome" placeholder="Digite o seu nome" name="nome">
+            <input type="text" class="form-control " id="nome" placeholder="Digite o seu nome" name="nome">
           </div>
         </section>
 
         <section class="col-lg-6 connectedSortable">
-          <div class="form-group text-white">
-            <label for="exampleInputEmail1">RA: <i class="fa-solid fa-circle-info"></i></label>
+          <div class=" text-white">
+            <label for="exampleInputEmail1" >RA: <i class="fa-solid fa-circle-info"></i></label>
             <input type="text" name="ra" class="form-control " id="ra" placeholder="Apenas Números" required minlength="9" maxlength="9" value="">
             <span class="text-sm text-danger">Utilize apenas números</span>
           </div>
@@ -85,7 +86,7 @@
           </select>
         </div>
 
-        <div class="form-group mt-12 col-md-12 text-white">
+        <div class="form-group mt-12 col-md-12 text-white mt-4">
           <label for="estateType">Oficina</label>
           <select name="oficina" id="oficina" class="form-control ">
             <?php
@@ -98,25 +99,25 @@
           </select>
         </div>
 
-        <div class="form-group mt-12 col-md-12 text-white">
+        <div class="form-group mt-12 col-md-12 text-white mt-2 ">
           
-          <div class="form-check ">
+          <div class="form-check d-flex align-items-center"  id="divRadio1"  onclick="selectRadio('notebook', '1')">
             <input class="form-check-input" type="radio" name="notebook" id="notebook" value='1'>
-            <label class="form-check-label" for="flexRadioDefault1">
+            <label class="form-check-label  ml-2" style="margin-left: 10px" for="flexRadioDefault1">
               Possuo <b>SIM</b> um Notebook
             </label>
           </div>
 
-          <div class="form-check">
+          <div class="form-check d-flex align-items-center"  id="divRadio2" onclick="selectRadio('notebook', '2')"> 
             <input class="form-check-input" type="radio" name="notebook" id="notebook2" value='2' checked>
-            <label class="form-check-label" for="flexRadioDefault2">
+            <label class="form-check-label " style="margin-left: 10px" for="flexRadioDefault2">
               <b>Não </b>possuo um Notebook
             </label>
           </div>
         </div>
 
-        <div class="form-group mt-12 col-md-12 text-white">
-          <div class="form-check">
+        <div class="form-group mt-12 col-md-12 text-white d-flex justify-content-center mb-4" onclick="">
+          <div class="form-check" >
             <input class="form-check-input" type="checkbox" value="1" id="termos" name="termos" checked>
             <label class="form-check-label" for="flexCheckChecked">
               Aceito os termos do Evento
@@ -126,7 +127,7 @@
 
         <section class="col-lg-12 staff-member connectedSortable">
           <div class="row  w-25">
-            <button type="submit" name="cadastrar" value="cadastrar" class="btn btn-primary btn-block">Realizar Inscrição <i class="fa-solid fa-right-to-bracket"></i></button>
+            <button type="submit" name="cadastrar" value="cadastrar" >Realizar Inscrição <i class="fa-solid fa-right-to-bracket"></i></button>
           </div>
 
         </section>
@@ -135,3 +136,4 @@
     </div>
     <!-- /.card-body -->
   </form>
+  <script src="../landingpage/js/form.js"></script>
