@@ -117,7 +117,7 @@
           </div>
         </div>
 
-        <div class="form-group mt-12 col-md-12 text-white d-flex justify-content-center mb-4" onclick="">
+        <div class="form-group mt-12 col-md-12 text-white d-flex justify-content-center mb-4" onclick="" style="margin-top: 40px;">
           <div class="form-check" >
             <input class="form-check-input" type="checkbox" value="1" id="termos" name="termos" checked>
             <label class="form-check-label" for="flexCheckChecked">
