@@ -77,6 +77,7 @@
                           Instaladas - Informe-se com o seu Representante de Turma</li>
                     </ul>
                     <li>Aproveite ao máximo este evento! Uma oportunidade única!</li>
+                    <li>Caso a oficina que você deseja participar, tenha esgotado as vagas, Segunda-Feira será liberada uma lista de espera!</li>
                   </li>
                 </li>
               </ol>
