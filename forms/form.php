@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="../landingpage/css/form.css" media="screen" />
 <!-- form start -->
 <!-- teste -->
+
 <?php
       if(isset($_POST['cadastrar'])){
       try {
@@ -23,9 +24,6 @@
   
 ?>
 
-  
-
-  <a name="form"></a>
   <form action="#form" method="post">
     <div class="card-body">
       <!-- row -->
@@ -97,6 +95,7 @@
             }
             ?>
           </select>
+          <span class="text-sm text-danger">Dúvida? Consulte o cronograma abaixo</span>
         </div>
 
         <div class="form-group mt-12 col-md-12 text-white mt-2 ">

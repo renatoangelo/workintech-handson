@@ -675,6 +675,27 @@ strong {
   color: rgb(255, 255, 255);
 }
 
+.instrucoes-container {
+  color: white;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+}
+
+.instrucoes {
+
+  width:  80%;
+}
+
+.instrucoes ul li {
+  color: white;
+  font-size: 15px;
+}
+
 /* CSS DO LOMBA */
 
 .unicesumar {
@@ -731,7 +752,7 @@ strong {
 .text-azul {
   color: var(--secondary-color);
   font-weight: normal;
-  font-size: 9px !import;
+  font-size: 9px;
 }
 
 /* FIM DO CSS DO LOMBA */

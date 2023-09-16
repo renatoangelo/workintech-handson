@@ -32,7 +32,7 @@
 
             <h1 class="text-white mb-5"><img src="images/logo.png" /></h1>
 
-            <a class="btn custom-btn smoothscroll" href="inscricao.php" target="_blank">Inscreva-se</a>
+            <a class="btn custom-btn smoothscroll" href="forms.php" target="_blank">Inscreva-se</a>
           </div>
 
           <div class="col-lg-12 col-12 mt-auto d-flex flex-column flex-lg-row text-center">
@@ -141,14 +141,7 @@
       </div>
     </section>
 
-    <!-- <section class="about-section section-padding" id="section_4">
-      <div class="container">
-        <?php include("empresas.php"); ?>
-      </div>
-    </section> -->
-
-
-    <section class="schedule-section section-padding" id="section_5">
+    <section class="schedule-section section-padding" id="section_4">
       <div class="container">
 
         <div class="row">
@@ -162,8 +155,13 @@
       </div>
     </section>
 
+    <section class="about-section section-padding" id="section_5">
+      <div class="container">
+        
+        <?php include("staff.php"); ?>
 
-    <?php include("staff.php"); ?>
+      </div>
+    </section>
 
 
     <section class="contact-section section-padding" id="section_6">
