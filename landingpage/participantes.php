@@ -5,9 +5,9 @@
 $participante = array();
 
 $participante[0]["nome"] = "Leandro Ribeiro";
-$participante[0]["titulo"] = "";
+$participante[0]["titulo"] = "Tecnólogo em Redes de Computadores, CEO Bitsafe<br>Especialista em Cibersecurity";
 $participante[0]["linkedin"] = "#";
-$participante[0]["foto"] = "";
+$participante[0]["foto"] = "leandro.jpg";
 
 
 $participante[1]["nome"] = "Frank Aguilieri";
@@ -56,15 +56,15 @@ $participante[8]["foto"] = "thyago.jpg";
 
 
 $participante[9]["nome"] = "Jeferson Cardoso";
-$participante[9]["titulo"] = "";
+$participante[9]["titulo"] = "CEO da Intalenti, Presidente da ABRH Noroeste(Associação Brasileira de Recursos Humanos) <br>e Diretor da SBM(Software By Maringa";
 $participante[9]["linkedin"] = "#";
-$participante[9]["foto"] = "";
+$participante[9]["foto"] = "jeferson.jpg";
 
 
 $participante[10]["nome"] = "Leonardo Ribeiro";
-$participante[10]["titulo"] = "";
+$participante[10]["titulo"] = "Tecnólogo em Análise e Desenvolvimento de Sistemas, <br>Desenvolvedor Full Stack Sênior";
 $participante[10]["linkedin"] = "#";
-$participante[10]["foto"] = "";
+$participante[10]["foto"] = "leonardo.jpg";
 
 foreach ($participante as $key => $value) {
 ?>
