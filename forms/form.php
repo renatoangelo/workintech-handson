@@ -103,14 +103,16 @@
           <div class="form-check d-flex align-items-center"  id="divRadio1"  onclick="selectRadio('notebook', '1')">
             <input class="form-check-input" type="radio" name="notebook" id="notebook" value='1'>
             <label class="form-check-label  ml-2" style="margin-left: 10px" for="flexRadioDefault1">
-              Possuo <b>SIM</b> um Notebook
+              1 - Quero <b>SIM</b> Utilizar meu Notebook
             </label>
           </div>
 
           <div class="form-check d-flex align-items-center"  id="divRadio2" onclick="selectRadio('notebook', '2')"> 
             <input class="form-check-input" type="radio" name="notebook" id="notebook2" value='2' checked>
             <label class="form-check-label " style="margin-left: 10px" for="flexRadioDefault2">
-              <b>Não </b>possuo um Notebook
+              2 - Quero ocupar um <b>PC da Universidade</b>
+              <br>[Escolha essa opção caso queira fazer a oficina no PC do Laboratório]
+              <br>[Ou escolha essa opção caso queira usar seu notebook na mesa do PC do Laboratório]
             </label>
           </div>
         </div>
