@@ -23,7 +23,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
     
 
-    <title>WorkInTech - Feira de Empregabilidade</title>
+    <title>WorkInTech - Hands.On</title>
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
