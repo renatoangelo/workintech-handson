@@ -14,10 +14,10 @@ class Cadastro
         if ($valida['vagas_pc'] + $valida['vagas_notebook'] > 0){
            
             if($valida['vagas_pc'] == 0 && $args['notebook'] == 2){
-                return '<div class="alert alert-danger" role="alert"> Essa oficina está lotada para os PCs. Apenas inscrições para quem possui Notebook </div>';
+                return '<div class="alert alert-danger" role="alert"> Essa oficina está lotada para os PCs. Apenas inscrições para quem utilizará Notebook (Precisa levar o seu equipamento)</div>';
             }
             if($valida['vagas_notebook'] == 0 && $args['notebook'] == 1){
-                return '<div class="alert alert-danger" role="alert"> Essa oficina está lotada para os Notebooks. Apenas inscrições para quem NÃO possui Notebooks </div>';
+                return '<div class="alert alert-danger" role="alert"> Essa oficina está lotada para os espaços de Notebooks. Apenas inscrições para quem irá ocupar uma mesa de PC (mesmo que utilizando um note)</div>';
             }
             $query = 'SELECT COUNT(1) FROM cadastro WHERE ra = :ra';
             $result = $conn->prepare($query);
