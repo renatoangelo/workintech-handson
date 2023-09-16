@@ -40,7 +40,7 @@
 
     $staff[8]["nome"] = "Matheus <br>Nanuncio ";
     $staff[8]["turma"] = "ESOFT-2S";
-    $staff[8]["foto"] = "staff.jpg";
+    $staff[8]["foto"] = "matheusn.jpg";
 
     $staff[9]["nome"] = "Alexandre <br>Lozano";
     $staff[9]["turma"] = "ESOFT-2S";

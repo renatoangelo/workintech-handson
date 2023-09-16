@@ -16,7 +16,7 @@
         <td scope="row">Lab#01 <br> Lovelace</td>
         <td style="background-color: var(--text-cinza-tabelas);"><h6 style="color: white">Segurança Ofensiva: o que são as falhas e como explorá-las<br>
 Segurança Defensiva: Como prevenir ataques</h6></td>
-        <td style="background-color: var(--text-palestras-tabela);"><h6 style="color: white">34 PC`s + 10 espaços Notebook</h6></td>
+        <td style="background-color: var(--text-palestras-tabela);"><h6 style="color: white">51 PC`s + 10 espaços Notebook</h6></td>
       </tr>
 
       <tr>
@@ -36,7 +36,7 @@ Segurança Defensiva: Como prevenir ataques</h6></td>
       <tr>
         <td scope="row">Lab#04 <br> Berners-Lee</td>
         <td style="background-color: var(--text-cinza-tabelas);"><h6 style="color: white">Automação com Python</h6></td>
-        <td style="background-color: var(--text-palestras-tabela);"><h6 style="color: white">51 PC`s</h6></td>
+        <td style="background-color: var(--text-palestras-tabela);"><h6 style="color: white">34 PC`s + 10 espaços Notebook</h6></td>
       </tr>
       
       <tr>

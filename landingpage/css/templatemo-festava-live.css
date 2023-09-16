@@ -749,10 +749,16 @@ strong {
   padding: 10px;
 }
 
-.text-azul {
+.text-azul2 {
   color: var(--secondary-color);
   font-weight: normal;
   font-size: 9px;
+}
+
+
+.text-azul {
+  color: var(--secondary-color);
+  font-weight: normal;
 }
 
 /* FIM DO CSS DO LOMBA */
