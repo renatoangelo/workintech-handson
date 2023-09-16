@@ -22,7 +22,8 @@ class Cadastro
             $query = 'SELECT COUNT(1) FROM cadastro WHERE ra = :ra';
             $result = $conn->prepare($query);
             $result->bindParam(':ra', $args['ra'], PDO::PARAM_STR);
-            $result->execute();
+            $result->execute('SET NAMES utf8');
+           
             $total = $result->fetchColumn();
             if ($total > 0) {
                 return '<div class="alert alert-warning" role="alert"> Usuário já cadastrado em uma oficina</div>';
