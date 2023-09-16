@@ -17,7 +17,7 @@ class Cadastro
                 return '<div class="alert alert-danger" role="alert"> Essa oficina está lotada para os PCs. Apenas inscrições para quem utilizará Notebook (Precisa levar o seu equipamento)</div>';
             }
             if($valida['vagas_notebook'] == 0 && $args['notebook'] == 1){
-                return '<div class="alert alert-danger" role="alert"> Essa oficina está lotada para os espaços de Notebooks. Apenas inscrições para quem irá ocupar uma mesa de PC (mesmo que utilizando um note)</div>';
+                return '<div class="alert alert-danger" role="alert">As vagas para Notebook encerraram. Caso ainda queria utilizar seu notebook, <b>mesmo ocupando uma mesa dos PCs</b> Selecione a opção 2 - Quero ocupar um PC da Universidade”</div>';
             }
             $query = 'SELECT COUNT(1) FROM cadastro WHERE ra = :ra';
             $result = $conn->prepare($query);

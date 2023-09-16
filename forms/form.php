@@ -107,7 +107,7 @@
             </label>
           </div>
 
-          <div class="form-check d-flex align-items-center"  id="divRadio2" onclick="selectRadio('notebook', '2')"> 
+          <div class="form-check d-flex align-items-center"  id="divRadio2" onclick="selectRadio('notebook', '2')" style="margin-top: 40px;"> 
             <input class="form-check-input" type="radio" name="notebook" id="notebook2" value='2' checked>
             <label class="form-check-label " style="margin-left: 10px" for="flexRadioDefault2">
               2 - Quero ocupar um <b>PC da Universidade</b>

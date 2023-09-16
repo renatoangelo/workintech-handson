@@ -65,9 +65,9 @@
                   <ul>
                     <li>Os laboratórios são equipados com: Mesas com PCs + Mesas para Notebooks</li>
                     <li>Se você tem o seu Notebook, vc deve priorizar usar as Mesas para Notebooks<br>
-                        para isto, escolha a opção [X] Possuo SIM um Notebook</li>
+                        para isto, escolha a opção [X] 1 - Quero SIM Utilizar meu Notebook</li>
                     <li>Caso as vagas para Notebook tenham esgotado e a oficina ainda possua vagas em aberto,<br>
-                        você poderá se inscrever, com a opção [X] Não possuo um Notebook</li>
+                        você poderá se inscrever, com a opção [X] 2 - Quero ocupar um PC da Universidade</li>
                     <li>Priorize levar o seu equipamento, caso possua</li>
                   </ul>
                   <li>Existe um nível de pré-requisito para as oficinas
