@@ -42,7 +42,7 @@ Segurança Defensiva: Como prevenir ataques</h6></td>
       <tr>
         <td scope="row">Lab #05  <br> Hopper</td>
         <td style="background-color: var(--text-cinza-tabelas);"><h6 style="color: white">Comece a trabalhar com Git usando GitKraken</h6></td>
-        <td style="background-color: var(--text-palestras-tabela);"><h6 style="color: white">32 PC`s + 7 Espaços Notebooks</h6></td>
+        <td style="background-color: var(--text-palestras-tabela);"><h6 style="color: white">20 PC`s + 10 Espaços Notebooks</h6></td>
       </tr>
       
       <tr>
@@ -60,7 +60,7 @@ Segurança Defensiva: Como prevenir ataques</h6></td>
       <tr>
         <td scope="row">Lab #08 <br> Page</td>
         <td style="background-color: var(--text-cinza-tabelas);"><h6 style="color: white">Criando e Simulando uma Gestão de Projeto: do Zero à Execução SCRUM  </h6></td>
-        <td style="background-color: var(--text-palestras-tabela);"><h6 style="color: white">20 PC`s + 10 Espaços Notebooks</h6></td>
+        <td style="background-color: var(--text-palestras-tabela);"><h6 style="color: white">32 PC`s + 07 Espaços Notebooks</h6></td>
       </tr>
       
       <tr>
