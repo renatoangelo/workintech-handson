@@ -22,7 +22,7 @@ class Cadastro
             $query = 'SELECT COUNT(1) FROM cadastro WHERE ra = :ra';
             $result = $conn->prepare($query);
             $result->bindParam(':ra', $args['ra'], PDO::PARAM_STR);
-            $result->execute('SET NAMES utf8');
+            $result->execute();
            
             $total = $result->fetchColumn();
             if ($total > 0) {
