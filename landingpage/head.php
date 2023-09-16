@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="ISO 8859-1">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="description" content="Workintech é uma feira de empregabilidae que acontece para os alunos de Tecnologia dos cursos noturnos na faculdade">
