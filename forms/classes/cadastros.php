@@ -41,7 +41,7 @@ class Cadastro
 
 
             if ($result) {
-                return '<div class="alert alert-success" role="alert"> Usuário criado com sucesso! </div>';
+                return '<div class="alert alert-success" role="alert"> Inscrição realizada com sucesso! </div>';
             } else {
                 return false;
             }
