@@ -2,7 +2,6 @@
   require_once '../forms/classes/oficinas.php';
   require_once '../forms/classes/cadastros.php';
   $oficinas_disponiveis = Oficina::get();
-  header('Content-Type: text/html; charset=utf-8');
 
 ?>
 <link rel="stylesheet" type="text/css" href="../landingpage/css/form.css" media="screen" />
