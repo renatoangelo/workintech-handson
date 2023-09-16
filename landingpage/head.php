@@ -1,11 +1,8 @@
-<?php
-header('Content-Type: text/html; charset=utf-8');
-?>
 <!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="ISO 8859-1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="description" content="Workintech é uma feira de empregabilidae que acontece para os alunos de Tecnologia dos cursos noturnos na faculdade">
