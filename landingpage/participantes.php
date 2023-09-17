@@ -18,7 +18,7 @@ $participante[1]["foto"] = "frank.jpg";
 
 $participante[2]["nome"] = "Renato Angelo";
 $participante[2]["titulo"] = "Developer, Empresário, CMO - Chief Marketing Officer, Consultor Empresarial";
-$participante[2]["linkedin"] = "https://www.linkedin.com/in/renatoangelo/";
+$participante[2]["linkedin"] = "https://www.linkedin.com/in/renatoangelo2/";
 $participante[2]["foto"] = "renato.jpg";
 
 $participante[3]["nome"] = "Gustavo Luiz Fernandes";
