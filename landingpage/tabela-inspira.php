@@ -73,7 +73,7 @@ Segurança Defensiva: Como prevenir ataques</h6></td>
         <td scope="row">Sala #10  <br> Jobs </td>
         <td style="background-color: var(--text-cinza-tabelas);"><h6 style="color: white"> Construindo Sua Carreira Dev  
 <br>19/ 09</h6></td>
-        <td style="background-color: var(--text-palestras-tabela);"><h6 style="color: white">280 pessoas</h6></td>
+        <td style="background-color: var(--text-palestras-tabela);"><h6 style="color: white">51 pessoas</h6></td>
       </tr>
 
 
